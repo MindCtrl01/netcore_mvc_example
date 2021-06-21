@@ -1,8 +1,16 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Http;
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <body>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h4>This is home page</h4>
+        <p>View list order from navigation bar</p>
+    }
+    else
+    {
     <h3>Login Page</h3>
     @ViewBag.error
     <form method="post" asp-controller="home" asp-action="login">
@@ -21,5 +29,7 @@
             </tr>
         </table>
     </form>
+    }
+
 
 </body>

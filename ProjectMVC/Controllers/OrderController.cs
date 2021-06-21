@@ -34,19 +34,16 @@ namespace ProjectMVC.Controllers
         public async Task<IActionResult> List([FromQuery(Name = "pageNo")] int pageNo = 1, [FromQuery(Name = "pageSize")] int pageSize = 3, string search = null)
         {
             _logger.LogInformation("----Getting data------");
-            ViewBag.Search = "";
-            if (string.IsNullOrEmpty(search))
-            {
-                ViewBag.Search = search;
-            }
-            ListOrderViewModel listOrder = await _orderService.GetListOrder(pageNo - 1, pageSize, search);
-            ViewBag.PageNo = pageNo;
-            ViewBag.PageSize = pageSize;
             
+            ListOrderViewModel listOrder = await _orderService.GetListOrder(pageNo - 1, pageSize, search);
             if (listOrder is null)
             {
                 _logger.LogError("----Problem getting data-------");
             }
+
+            ViewBag.PageNo = pageNo;
+            ViewBag.PageSize = pageSize;
+
             return View(listOrder);
         }
 

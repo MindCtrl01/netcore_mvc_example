@@ -6,10 +6,9 @@
     <title>Success</title>
 </head>
 <body>
-
-    <h3>Success Page</h3>
     Welcome @Context.Session.GetString("username")
     <br>
+    <a asp-controller="home" asp-action="index">Return to home page</a>
     <a asp-controller="home" asp-action="logout">Logout</a>
 
 </body>

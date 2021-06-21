@@ -8,7 +8,6 @@ namespace ProjectMVC.ViewModels
     public class ListOrderViewModel
     {
         public List<OrderView> ListOrder { get; set; }
-        
         public int TotalRecord { get; set; }
     }
     public class OrderView

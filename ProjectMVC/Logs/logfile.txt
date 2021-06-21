@@ -4849,3 +4849,602 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2021-06-21 10:51:07.181 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 4.0253ms
 2021-06-21 10:51:07.181 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
 2021-06-21 10:51:07.186 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 9.8194ms
+2021-06-21 11:20:29.043 +07:00 [INF] Starting up
+2021-06-21 11:20:32.599 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 11:20:33.758 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:20:33.758 +07:00 [INF] Hosting environment: Development
+2021-06-21 11:20:33.758 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 11:20:33.824 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:20:33.928 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:20:33.963 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:20:34.001 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:20:34.207 +07:00 [INF] Executed ViewResult - view Index executed in 218.8741ms.
+2021-06-21 11:20:34.210 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 245.6098ms
+2021-06-21 11:20:34.211 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:20:34.224 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 401.3825ms
+2021-06-21 11:20:34.298 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-06-21 11:20:34.298 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/css/site.css - -
+2021-06-21 11:20:34.304 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/jquery/dist/jquery.min.js - -
+2021-06-21 11:20:34.348 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\css\site.css'
+2021-06-21 11:20:34.351 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/css/site.css - - - 200 1417 text/css 51.1450ms
+2021-06-21 11:20:34.355 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-06-21 11:20:34.362 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 63.5596ms
+2021-06-21 11:20:34.443 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-06-21 11:20:34.446 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 141.5718ms
+2021-06-21 11:20:34.520 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-06-21 11:20:34.547 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-06-21 11:20:34.549 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\js\site.js'
+2021-06-21 11:20:34.550 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 3.0754ms
+2021-06-21 11:20:34.608 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-06-21 11:20:34.610 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 89.9810ms
+2021-06-21 11:21:52.340 +07:00 [INF] Starting up
+2021-06-21 11:21:53.591 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 11:21:54.218 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:21:54.218 +07:00 [INF] Hosting environment: Development
+2021-06-21 11:21:54.218 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 11:21:54.282 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:21:55.209 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:21:56.841 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:21:56.879 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:21:56.904 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:21:57.059 +07:00 [INF] Executed ViewResult - view Index executed in 156.8676ms.
+2021-06-21 11:21:57.061 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 181.6126ms
+2021-06-21 11:21:57.062 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:21:57.169 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 2889.2676ms
+2021-06-21 11:23:49.751 +07:00 [INF] Starting up
+2021-06-21 11:23:50.969 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 11:23:51.392 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:23:51.392 +07:00 [INF] Hosting environment: Development
+2021-06-21 11:23:51.392 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 11:23:51.430 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:23:51.496 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:23:51.519 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:23:51.543 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:23:51.692 +07:00 [INF] Executed ViewResult - view Index executed in 155.5595ms.
+2021-06-21 11:23:51.695 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 175.2412ms
+2021-06-21 11:23:51.696 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:23:51.729 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 299.9172ms
+2021-06-21 11:24:07.448 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:24:07.449 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:24:07.450 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:24:07.459 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:24:07.581 +07:00 [INF] Executed ViewResult - view Index executed in 121.8444ms.
+2021-06-21 11:24:07.581 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 131.1844ms
+2021-06-21 11:24:07.581 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:24:07.583 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 135.2799ms
+2021-06-21 11:24:07.743 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/favicon.ico - -
+2021-06-21 11:24:07.781 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\favicon.ico'
+2021-06-21 11:24:07.782 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/favicon.ico - - - 200 5430 image/x-icon 39.0139ms
+2021-06-21 11:24:14.737 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44350/login application/x-www-form-urlencoded 213
+2021-06-21 11:24:14.751 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Login (ProjectMVC)'
+2021-06-21 11:24:14.773 +07:00 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:24:15.583 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:24:16.625 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-06-21 11:24:16.630 +07:00 [INF] Executing ViewResult, running view Success.
+2021-06-21 11:24:16.641 +07:00 [INF] Executed ViewResult - view Success executed in 13.0946ms.
+2021-06-21 11:24:16.645 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Login (ProjectMVC) in 1871.381ms
+2021-06-21 11:24:16.650 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Login (ProjectMVC)'
+2021-06-21 11:24:16.657 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44350/login application/x-www-form-urlencoded 213 - 200 - text/html;+charset=utf-8 1919.7168ms
+2021-06-21 11:24:26.847 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:24:26.849 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:24:26.849 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:24:26.849 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:24:26.850 +07:00 [INF] Executed ViewResult - view Index executed in 1.2513ms.
+2021-06-21 11:24:26.850 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 1.4255ms
+2021-06-21 11:24:26.850 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:24:26.851 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 4.0445ms
+2021-06-21 11:26:00.361 +07:00 [INF] Starting up
+2021-06-21 11:26:01.694 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 11:26:02.197 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:26:02.197 +07:00 [INF] Hosting environment: Development
+2021-06-21 11:26:02.197 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 11:26:02.249 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:26:02.345 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:26:02.371 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:26:02.393 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:26:02.560 +07:00 [INF] Executed ViewResult - view Index executed in 172.3268ms.
+2021-06-21 11:26:02.563 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 190.7355ms
+2021-06-21 11:26:02.565 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:26:02.605 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 358.6130ms
+2021-06-21 11:26:06.808 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List - -
+2021-06-21 11:26:06.817 +07:00 [INF] Authorization was successful.
+2021-06-21 11:26:06.818 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:06.846 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:26:06.868 +07:00 [INF] ----Getting data------
+2021-06-21 11:26:07.813 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:26:08.669 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:26:08.821 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:26:08.823 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:26:08.843 +07:00 [INF] Executed ViewResult - view List executed in 174.0208ms.
+2021-06-21 11:26:08.844 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 1998.0357ms
+2021-06-21 11:26:08.845 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:08.854 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List - - - 200 - text/html;+charset=utf-8 2047.0267ms
+2021-06-21 11:26:08.888 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/datatables/js/jquery.dataTables.min.js - -
+2021-06-21 11:26:08.888 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/datatables/js/dataTables.bootstrap4.min.js - -
+2021-06-21 11:26:08.889 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/js/OrderDatatable.js - -
+2021-06-21 11:26:08.889 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/datatables/css/dataTables.bootstrap4.min.css - -
+2021-06-21 11:26:08.918 +07:00 [INF] Sending file. Request path: '/js/OrderDatatable.js'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\js\OrderDatatable.js'
+2021-06-21 11:26:08.928 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/js/OrderDatatable.js - - - 200 164 application/javascript 34.2934ms
+2021-06-21 11:26:08.932 +07:00 [INF] Sending file. Request path: '/lib/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\datatables\css\dataTables.bootstrap4.min.css'
+2021-06-21 11:26:08.933 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/datatables/css/dataTables.bootstrap4.min.css - - - 200 5395 text/css 43.0372ms
+2021-06-21 11:26:08.965 +07:00 [INF] Sending file. Request path: '/lib/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\datatables\js\dataTables.bootstrap4.min.js'
+2021-06-21 11:26:08.966 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/datatables/js/dataTables.bootstrap4.min.js - - - 200 3278 application/javascript 77.5094ms
+2021-06-21 11:26:09.008 +07:00 [INF] Sending file. Request path: '/lib/datatables/js/jquery.dataTables.min.js'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\datatables\js\jquery.dataTables.min.js'
+2021-06-21 11:26:09.012 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/datatables/js/jquery.dataTables.min.js - - - 200 84647 application/javascript 123.9363ms
+2021-06-21 11:26:13.294 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242
+2021-06-21 11:26:13.307 +07:00 [INF] Authorization was successful.
+2021-06-21 11:26:13.307 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:13.307 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:26:13.321 +07:00 [INF] ----Getting data------
+2021-06-21 11:26:13.354 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:26:13.452 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:26:13.457 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:26:13.457 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:26:13.458 +07:00 [INF] Executed ViewResult - view List executed in 6.0465ms.
+2021-06-21 11:26:13.459 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 151.3408ms
+2021-06-21 11:26:13.459 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:13.460 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242 - 200 - text/html;+charset=utf-8 166.0367ms
+2021-06-21 11:26:14.564 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - -
+2021-06-21 11:26:14.568 +07:00 [INF] Authorization was successful.
+2021-06-21 11:26:14.568 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:14.570 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:26:14.573 +07:00 [INF] ----Getting data------
+2021-06-21 11:26:14.580 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:26:14.604 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:26:14.609 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:26:14.609 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:26:14.610 +07:00 [INF] Executed ViewResult - view List executed in 6.0726ms.
+2021-06-21 11:26:14.610 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 39.8109ms
+2021-06-21 11:26:14.610 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:14.611 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 46.2114ms
+2021-06-21 11:26:18.072 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List?pageNo=1&pageSize=3 - -
+2021-06-21 11:26:18.074 +07:00 [INF] Authorization was successful.
+2021-06-21 11:26:18.074 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:18.075 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:26:18.075 +07:00 [INF] ----Getting data------
+2021-06-21 11:26:18.075 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:26:18.083 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:26:18.090 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:26:18.090 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:26:18.092 +07:00 [INF] Executed ViewResult - view List executed in 8.9874ms.
+2021-06-21 11:26:18.092 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 17.5116ms
+2021-06-21 11:26:18.092 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:18.096 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List?pageNo=1&pageSize=3 - - - 200 - text/html;+charset=utf-8 23.0854ms
+2021-06-21 11:26:18.798 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - -
+2021-06-21 11:26:18.799 +07:00 [INF] Authorization was successful.
+2021-06-21 11:26:18.799 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:18.799 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:26:18.799 +07:00 [INF] ----Getting data------
+2021-06-21 11:26:18.800 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:26:18.806 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:26:18.810 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:26:18.810 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:26:18.811 +07:00 [INF] Executed ViewResult - view List executed in 4.8719ms.
+2021-06-21 11:26:18.811 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 11.9978ms
+2021-06-21 11:26:18.811 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:26:18.811 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 13.1699ms
+2021-06-21 11:27:53.559 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List - -
+2021-06-21 11:27:53.561 +07:00 [INF] Authorization was successful.
+2021-06-21 11:27:53.566 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:27:53.566 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:27:58.615 +07:00 [INF] ----Getting data------
+2021-06-21 11:28:21.017 +07:00 [INF] Starting up
+2021-06-21 11:28:22.390 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 11:28:22.943 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:28:22.944 +07:00 [INF] Hosting environment: Development
+2021-06-21 11:28:22.944 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 11:28:23.011 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/create - -
+2021-06-21 11:28:23.011 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:28:23.111 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:28:23.119 +07:00 [INF] Authorization was successful.
+2021-06-21 11:28:23.119 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.Create (ProjectMVC)'
+2021-06-21 11:28:23.142 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:28:23.142 +07:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:28:23.147 +07:00 [INF] ----Getting data------
+2021-06-21 11:28:23.169 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:28:23.400 +07:00 [INF] Executed ViewResult - view Index executed in 233.3972ms.
+2021-06-21 11:28:23.403 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 259.9968ms
+2021-06-21 11:28:23.403 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:28:23.414 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 405.1834ms
+2021-06-21 11:28:23.490 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list - -
+2021-06-21 11:28:23.518 +07:00 [INF] Authorization was successful.
+2021-06-21 11:28:23.518 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:28:23.534 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:29:43.678 +07:00 [INF] ----Getting data------
+2021-06-21 11:29:46.155 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:29:46.155 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:29:48.093 +07:00 [INF] Executing ViewResult, running view Create.
+2021-06-21 11:29:48.097 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:29:48.128 +07:00 [INF] Executed ViewResult - view Create executed in 35.9269ms.
+2021-06-21 11:29:48.129 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.Create (ProjectMVC) in 84986.4713ms
+2021-06-21 11:29:48.130 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.Create (ProjectMVC)'
+2021-06-21 11:29:48.135 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/create - - - 200 - text/html;+charset=utf-8 85127.4217ms
+2021-06-21 11:29:48.165 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:29:48.168 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:29:48.185 +07:00 [INF] Executed ViewResult - view List executed in 88.6425ms.
+2021-06-21 11:29:48.185 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 84650.4717ms
+2021-06-21 11:29:48.185 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:29:48.189 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list - - - 200 - text/html;+charset=utf-8 84698.1027ms
+2021-06-21 11:29:51.576 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242
+2021-06-21 11:29:51.578 +07:00 [INF] Authorization was successful.
+2021-06-21 11:29:51.578 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:29:51.578 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:29:53.310 +07:00 [INF] ----Getting data------
+2021-06-21 11:29:58.920 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:30:03.587 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:30:03.592 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:30:03.592 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:30:03.594 +07:00 [INF] Executed ViewResult - view List executed in 7.5338ms.
+2021-06-21 11:30:03.594 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 12016.1135ms
+2021-06-21 11:30:03.594 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:30:03.595 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242 - 200 - text/html;+charset=utf-8 12018.9928ms
+2021-06-21 11:30:06.147 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - -
+2021-06-21 11:30:06.148 +07:00 [INF] Authorization was successful.
+2021-06-21 11:30:06.148 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:30:06.148 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:30:06.150 +07:00 [INF] ----Getting data------
+2021-06-21 11:30:06.150 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:30:06.363 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:30:06.368 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:30:06.368 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:30:06.369 +07:00 [INF] Executed ViewResult - view List executed in 6.3537ms.
+2021-06-21 11:30:06.369 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 221.2372ms
+2021-06-21 11:30:06.370 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:30:06.370 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 222.9802ms
+2021-06-21 11:34:06.145 +07:00 [INF] Starting up
+2021-06-21 11:34:07.357 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 11:34:07.794 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:34:07.794 +07:00 [INF] Hosting environment: Development
+2021-06-21 11:34:07.794 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 11:34:07.834 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:34:07.902 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:34:07.929 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:34:07.949 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:34:08.085 +07:00 [INF] Executed ViewResult - view Index executed in 140.9188ms.
+2021-06-21 11:34:08.087 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 157.3126ms
+2021-06-21 11:34:08.087 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:34:08.102 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 270.4478ms
+2021-06-21 11:34:10.508 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List - -
+2021-06-21 11:34:10.526 +07:00 [INF] Authorization was successful.
+2021-06-21 11:34:10.528 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:10.556 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:34:10.587 +07:00 [INF] ----Getting data------
+2021-06-21 11:34:11.491 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:34:12.499 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:34:12.613 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:34:12.616 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:34:12.633 +07:00 [INF] Executed ViewResult - view List executed in 135.4834ms.
+2021-06-21 11:34:12.636 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 2077.578ms
+2021-06-21 11:34:12.637 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:12.646 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List - - - 200 - text/html;+charset=utf-8 2137.8461ms
+2021-06-21 11:34:14.729 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242
+2021-06-21 11:34:14.745 +07:00 [INF] Authorization was successful.
+2021-06-21 11:34:14.747 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:14.747 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:34:14.760 +07:00 [INF] ----Getting data------
+2021-06-21 11:34:14.798 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:34:14.829 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:34:14.834 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:34:14.834 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:34:14.836 +07:00 [INF] Executed ViewResult - view List executed in 6.7212ms.
+2021-06-21 11:34:14.836 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 88.964ms
+2021-06-21 11:34:14.836 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:14.837 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242 - 200 - text/html;+charset=utf-8 110.2733ms
+2021-06-21 11:34:15.838 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - -
+2021-06-21 11:34:15.839 +07:00 [INF] Authorization was successful.
+2021-06-21 11:34:15.840 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:15.840 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:34:15.843 +07:00 [INF] ----Getting data------
+2021-06-21 11:34:15.851 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:34:15.863 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:34:15.871 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:34:15.871 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:34:15.873 +07:00 [INF] Executed ViewResult - view List executed in 10.2832ms.
+2021-06-21 11:34:15.874 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 34.0482ms
+2021-06-21 11:34:15.874 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:15.875 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 36.4390ms
+2021-06-21 11:34:22.770 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2021-06-21 11:34:22.777 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2021-06-21 11:34:23.029 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2021-06-21 11:34:23.035 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 311958 text/plain 264.9643ms
+2021-06-21 11:34:23.042 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2021-06-21 11:34:23.050 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 625956 text/plain 272.9653ms
+2021-06-21 11:34:23.835 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List?pageNo=1&pageSize=3 - -
+2021-06-21 11:34:23.839 +07:00 [INF] Authorization was successful.
+2021-06-21 11:34:23.839 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:23.839 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:34:23.840 +07:00 [INF] ----Getting data------
+2021-06-21 11:34:23.840 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:34:23.850 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:34:23.859 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:34:23.859 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:34:23.860 +07:00 [INF] Executed ViewResult - view List executed in 9.5463ms.
+2021-06-21 11:34:23.860 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 20.2992ms
+2021-06-21 11:34:23.860 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:23.860 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List?pageNo=1&pageSize=3 - - - 200 - text/html;+charset=utf-8 24.8632ms
+2021-06-21 11:34:24.094 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2021-06-21 11:34:24.118 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2021-06-21 11:34:24.135 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 625956 text/plain 41.8043ms
+2021-06-21 11:34:24.167 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2021-06-21 11:34:24.194 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2021-06-21 11:34:24.198 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 311958 text/plain 31.3666ms
+2021-06-21 11:34:28.364 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242
+2021-06-21 11:34:28.365 +07:00 [INF] Authorization was successful.
+2021-06-21 11:34:28.365 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:28.365 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:34:28.366 +07:00 [INF] ----Getting data------
+2021-06-21 11:34:28.366 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:34:28.460 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:34:28.463 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:34:28.463 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:34:28.464 +07:00 [INF] Executed ViewResult - view List executed in 4.1451ms.
+2021-06-21 11:34:28.464 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 98.9934ms
+2021-06-21 11:34:28.464 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:28.477 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242 - 200 - text/html;+charset=utf-8 113.2731ms
+2021-06-21 11:34:28.667 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2021-06-21 11:34:28.766 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2021-06-21 11:34:28.789 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2021-06-21 11:34:28.797 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2021-06-21 11:34:28.822 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 625956 text/plain 154.2935ms
+2021-06-21 11:34:28.830 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 311958 text/plain 63.6574ms
+2021-06-21 11:34:33.786 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - -
+2021-06-21 11:34:33.786 +07:00 [INF] Authorization was successful.
+2021-06-21 11:34:33.787 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:33.787 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:34:33.787 +07:00 [INF] ----Getting data------
+2021-06-21 11:34:33.787 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:34:33.805 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:34:33.810 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:34:33.810 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:34:33.811 +07:00 [INF] Executed ViewResult - view List executed in 5.7869ms.
+2021-06-21 11:34:33.811 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 24.0878ms
+2021-06-21 11:34:33.811 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:34:33.812 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 26.1375ms
+2021-06-21 11:34:33.999 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2021-06-21 11:34:34.006 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2021-06-21 11:34:34.019 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 625956 text/plain 19.1959ms
+2021-06-21 11:34:34.085 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2021-06-21 11:34:34.101 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'F:\netcore_mvc_example\ProjectMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2021-06-21 11:34:34.112 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 311958 text/plain 27.0004ms
+2021-06-21 11:43:53.878 +07:00 [INF] Starting up
+2021-06-21 11:43:55.323 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 11:43:56.033 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:43:56.034 +07:00 [INF] Hosting environment: Development
+2021-06-21 11:43:56.034 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 11:43:56.106 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:43:56.334 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:43:56.366 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/create - -
+2021-06-21 11:43:56.374 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:43:56.375 +07:00 [INF] Authorization was successful.
+2021-06-21 11:43:56.375 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.Create (ProjectMVC)'
+2021-06-21 11:43:56.390 +07:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:43:56.396 +07:00 [INF] ----Getting data------
+2021-06-21 11:43:56.403 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:43:56.596 +07:00 [INF] Executed ViewResult - view Index executed in 198.6654ms.
+2021-06-21 11:43:56.598 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 223.2601ms
+2021-06-21 11:43:56.599 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:43:56.604 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 500.7795ms
+2021-06-21 11:43:57.357 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:43:57.528 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list - -
+2021-06-21 11:43:57.543 +07:00 [INF] Authorization was successful.
+2021-06-21 11:43:57.543 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:43:57.560 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:44:01.792 +07:00 [INF] ----Getting data------
+2021-06-21 11:44:03.841 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:44:04.331 +07:00 [INF] Executing ViewResult, running view Create.
+2021-06-21 11:44:24.281 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:44:24.731 +07:00 [INF] Executed ViewResult - view Create executed in 20401.2709ms.
+2021-06-21 11:44:24.761 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.Create (ProjectMVC) in 28371.4522ms
+2021-06-21 11:44:24.762 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.Create (ProjectMVC)'
+2021-06-21 11:44:24.769 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/create - - - 200 - text/html;+charset=utf-8 28403.2995ms
+2021-06-21 11:44:24.873 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:44:24.876 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:44:25.184 +07:00 [INF] Executed ViewResult - view List executed in 970.5947ms.
+2021-06-21 11:44:25.184 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 27623.9929ms
+2021-06-21 11:44:25.184 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:44:25.187 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list - - - 200 - text/html;+charset=utf-8 27659.3225ms
+2021-06-21 11:44:28.141 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242
+2021-06-21 11:44:28.144 +07:00 [INF] Authorization was successful.
+2021-06-21 11:44:28.145 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:44:28.145 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:44:32.165 +07:00 [INF] ----Getting data------
+2021-06-21 11:44:42.900 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:47:43.016 +07:00 [INF] Starting up
+2021-06-21 11:47:44.320 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 11:47:44.757 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:47:44.757 +07:00 [INF] Hosting environment: Development
+2021-06-21 11:47:44.757 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 11:47:44.795 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 11:47:44.868 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:47:44.894 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 11:47:44.914 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 11:47:45.093 +07:00 [INF] Executed ViewResult - view Index executed in 180.0821ms.
+2021-06-21 11:47:45.100 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 205.1204ms
+2021-06-21 11:47:45.101 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 11:47:45.144 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 351.5101ms
+2021-06-21 11:47:48.590 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List - -
+2021-06-21 11:47:48.612 +07:00 [INF] Authorization was successful.
+2021-06-21 11:47:48.612 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:47:48.639 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:47:53.511 +07:00 [INF] ----Getting data------
+2021-06-21 11:47:55.105 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:47:55.962 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:47:56.026 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:47:56.029 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:47:56.048 +07:00 [INF] Executed ViewResult - view List executed in 87.2723ms.
+2021-06-21 11:47:56.053 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 7414.3558ms
+2021-06-21 11:47:56.054 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:47:56.062 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/Order/List - - - 200 - text/html;+charset=utf-8 7471.8210ms
+2021-06-21 11:48:20.515 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242
+2021-06-21 11:48:20.527 +07:00 [INF] Authorization was successful.
+2021-06-21 11:48:20.528 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:48:20.530 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:48:22.458 +07:00 [INF] ----Getting data------
+2021-06-21 11:48:26.425 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 11:48:33.958 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 11:48:34.753 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 11:48:34.753 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 11:48:35.160 +07:00 [INF] Executed ViewResult - view List executed in 1334.2092ms.
+2021-06-21 11:48:35.160 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 14630.7064ms
+2021-06-21 11:48:35.160 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:48:35.206 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44350/Order/List application/x-www-form-urlencoded 242 - 200 - text/html;+charset=utf-8 14691.2607ms
+2021-06-21 11:48:36.868 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/Order/List?pageNo=2&pageSize=3 - -
+2021-06-21 11:48:36.871 +07:00 [INF] Authorization was successful.
+2021-06-21 11:48:36.871 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 11:48:36.871 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 11:48:41.731 +07:00 [INF] ----Getting data------
+2021-06-21 14:31:37.033 +07:00 [INF] Starting up
+2021-06-21 14:31:44.452 +07:00 [INF] User profile is available. Using 'C:\Users\euro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 14:31:45.495 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 14:31:45.495 +07:00 [INF] Hosting environment: Development
+2021-06-21 14:31:45.495 +07:00 [INF] Content root path: F:\netcore_mvc_example\ProjectMVC
+2021-06-21 14:31:45.575 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/ - -
+2021-06-21 14:31:45.942 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/create - -
+2021-06-21 14:31:46.390 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list - -
+2021-06-21 14:31:46.527 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list - -
+2021-06-21 14:31:46.842 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:31:46.842 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:31:46.842 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:31:46.842 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:31:49.009 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 14:31:49.015 +07:00 [INF] Authorization was successful.
+2021-06-21 14:31:49.015 +07:00 [INF] Authorization was successful.
+2021-06-21 14:31:49.015 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:31:49.015 +07:00 [INF] Authorization was successful.
+2021-06-21 14:31:49.015 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:31:49.015 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.Create (ProjectMVC)'
+2021-06-21 14:31:49.035 +07:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:31:49.039 +07:00 [INF] ----Getting data------
+2021-06-21 14:31:49.045 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:31:49.085 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:31:49.085 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectMVC.Controllers.HomeController (ProjectMVC).
+2021-06-21 14:32:25.360 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:25.360 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:25.365 +07:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 14:32:25.378 +07:00 [INF] Executing ViewResult, running view Create.
+2021-06-21 14:32:25.522 +07:00 [INF] Executed ViewResult - view Index executed in 36379.6525ms.
+2021-06-21 14:32:25.522 +07:00 [INF] Executed ViewResult - view Create executed in 140.3633ms.
+2021-06-21 14:32:25.525 +07:00 [INF] Executed action ProjectMVC.Controllers.HomeController.Index (ProjectMVC) in 36439.0606ms
+2021-06-21 14:32:25.526 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.HomeController.Index (ProjectMVC)'
+2021-06-21 14:32:25.526 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.Create (ProjectMVC) in 36490.4597ms
+2021-06-21 14:32:25.526 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.Create (ProjectMVC)'
+2021-06-21 14:32:25.535 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/ - - - 200 - text/html;+charset=utf-8 39963.8000ms
+2021-06-21 14:32:25.535 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/create - - - 200 - text/html;+charset=utf-8 39591.6825ms
+2021-06-21 14:32:25.634 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:25.639 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:25.698 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:25.698 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:25.700 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:25.700 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:25.718 +07:00 [INF] Executed ViewResult - view List executed in 84.0311ms.
+2021-06-21 14:32:25.718 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 36632.9886ms
+2021-06-21 14:32:25.718 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:25.718 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list - - - 200 - text/html;+charset=utf-8 39327.8152ms
+2021-06-21 14:32:25.722 +07:00 [INF] Executed ViewResult - view List executed in 82.8734ms.
+2021-06-21 14:32:25.722 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 36677.3425ms
+2021-06-21 14:32:25.722 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:25.728 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list - - - 200 - text/html;+charset=utf-8 39201.7565ms
+2021-06-21 14:32:28.153 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list?pageNo=2&pageSize=3 - -
+2021-06-21 14:32:28.154 +07:00 [INF] Authorization was successful.
+2021-06-21 14:32:28.154 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:28.155 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:32:28.159 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:28.192 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:32:28.225 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:28.231 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:28.231 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:28.232 +07:00 [INF] Executed ViewResult - view List executed in 7.6927ms.
+2021-06-21 14:32:28.232 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 77.6602ms
+2021-06-21 14:32:28.232 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:28.233 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 80.0283ms
+2021-06-21 14:32:30.591 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list?pageNo=1&pageSize=3 - -
+2021-06-21 14:32:30.592 +07:00 [INF] Authorization was successful.
+2021-06-21 14:32:30.592 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:30.592 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:32:30.592 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:30.592 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:32:30.609 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:30.613 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:30.613 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:30.615 +07:00 [INF] Executed ViewResult - view List executed in 5.384ms.
+2021-06-21 14:32:30.615 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 22.9746ms
+2021-06-21 14:32:30.615 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:30.615 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list?pageNo=1&pageSize=3 - - - 200 - text/html;+charset=utf-8 24.1871ms
+2021-06-21 14:32:32.430 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list?pageNo=2&pageSize=3 - -
+2021-06-21 14:32:32.430 +07:00 [INF] Authorization was successful.
+2021-06-21 14:32:32.430 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:32.430 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:32:32.431 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:32.431 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:32:32.467 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:32.473 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:32.473 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:32.474 +07:00 [INF] Executed ViewResult - view List executed in 7.4769ms.
+2021-06-21 14:32:32.474 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 43.6404ms
+2021-06-21 14:32:32.474 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:32.474 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 44.9163ms
+2021-06-21 14:32:34.377 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list?pageNo=1&pageSize=3 - -
+2021-06-21 14:32:34.377 +07:00 [INF] Authorization was successful.
+2021-06-21 14:32:34.377 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:34.377 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:32:34.377 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:34.378 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:32:34.387 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:34.393 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:34.393 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:34.394 +07:00 [INF] Executed ViewResult - view List executed in 7.0933ms.
+2021-06-21 14:32:34.394 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 16.8868ms
+2021-06-21 14:32:34.394 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:34.395 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list?pageNo=1&pageSize=3 - - - 200 - text/html;+charset=utf-8 17.8736ms
+2021-06-21 14:32:36.623 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list?pageNo=2&pageSize=3 - -
+2021-06-21 14:32:36.624 +07:00 [INF] Authorization was successful.
+2021-06-21 14:32:36.624 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:36.624 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:32:36.624 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:36.624 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:32:36.633 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:36.640 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:36.641 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:36.642 +07:00 [INF] Executed ViewResult - view List executed in 9.2505ms.
+2021-06-21 14:32:36.642 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 18.2297ms
+2021-06-21 14:32:36.642 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:36.643 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 19.6417ms
+2021-06-21 14:32:37.301 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list?pageNo=1&pageSize=3 - -
+2021-06-21 14:32:37.301 +07:00 [INF] Authorization was successful.
+2021-06-21 14:32:37.302 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:37.302 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:32:37.302 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:37.302 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:32:37.312 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:37.316 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:37.316 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:37.317 +07:00 [INF] Executed ViewResult - view List executed in 5.2486ms.
+2021-06-21 14:32:37.317 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 15.3522ms
+2021-06-21 14:32:37.317 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:37.327 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list?pageNo=1&pageSize=3 - - - 200 - text/html;+charset=utf-8 25.5645ms
+2021-06-21 14:32:38.095 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list?pageNo=2&pageSize=3 - -
+2021-06-21 14:32:38.096 +07:00 [INF] Authorization was successful.
+2021-06-21 14:32:38.096 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:38.096 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:32:38.096 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:38.096 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:32:38.107 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:38.113 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:38.113 +07:00 [INF] ----> PagingTagHelper - PageNo: 2, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:38.114 +07:00 [INF] Executed ViewResult - view List executed in 7.1191ms.
+2021-06-21 14:32:38.114 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 18.1734ms
+2021-06-21 14:32:38.114 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:38.114 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list?pageNo=2&pageSize=3 - - - 200 - text/html;+charset=utf-8 19.0944ms
+2021-06-21 14:32:38.671 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44350/order/list?pageNo=1&pageSize=3 - -
+2021-06-21 14:32:38.671 +07:00 [INF] Authorization was successful.
+2021-06-21 14:32:38.672 +07:00 [INF] Executing endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:38.672 +07:00 [INF] Route matched with {action = "List", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Int32, Int32, System.String) on controller ProjectMVC.Controllers.OrderController (ProjectMVC).
+2021-06-21 14:32:38.672 +07:00 [INF] ----Getting data------
+2021-06-21 14:32:38.673 +07:00 [INF] Entity Framework Core 5.0.7 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 14:32:38.692 +07:00 [INF] Executing ViewResult, running view List.
+2021-06-21 14:32:38.697 +07:00 [INF] ----> PagingTagHelper SettingsJson: default - default
+2021-06-21 14:32:38.697 +07:00 [INF] ----> PagingTagHelper - PageNo: 1, PageSize: 3, TotalRecords: 6, TotalPages: 2, QueryStringKeyPageNo: pageNo, QueryStringKeyPageSize: pageSize, 
+2021-06-21 14:32:38.698 +07:00 [INF] Executed ViewResult - view List executed in 5.1743ms.
+2021-06-21 14:32:38.698 +07:00 [INF] Executed action ProjectMVC.Controllers.OrderController.List (ProjectMVC) in 25.9267ms
+2021-06-21 14:32:38.698 +07:00 [INF] Executed endpoint 'ProjectMVC.Controllers.OrderController.List (ProjectMVC)'
+2021-06-21 14:32:38.698 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44350/order/list?pageNo=1&pageSize=3 - - - 200 - text/html;+charset=utf-8 27.0173ms

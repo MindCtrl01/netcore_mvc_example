@@ -29,7 +29,7 @@ namespace ProjectMVC.Service
                 var result = new ListOrderViewModel
                 {
                     ListOrder = orders,
-                    TotalRecord = total_result
+                    TotalRecord = total_result,
                 };
                 return result;
             }

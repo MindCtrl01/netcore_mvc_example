@@ -33,22 +33,6 @@ namespace ProjectMVC.Repository
         public async Task<List<OrderView>> GetOrderWithPaging(int index, int size)
         {
             int skipCount = index * size;
-            if (skipCount == 0)
-            {
-                var res = await _context.Orders
-                               .OrderByDescending(o => o.OrderDate)
-                               .Take(size)
-                               .Select(o => new OrderView
-                               {
-                                   ProductName = o.Product.Name,
-                                   CategoryName = o.Product.Category.Name,
-                                   CustomerName = o.Customer.Name,
-                                   OrderDate = o.OrderDate,
-                                   Amount = o.Amount
-                               })
-                               .ToListAsync();
-                return res;
-            }
             var result = await _context.Orders
                                .OrderByDescending(o => o.OrderDate)
                                .Skip(skipCount)
@@ -68,23 +52,6 @@ namespace ProjectMVC.Repository
         public async Task<List<OrderView>> GetOrderWithSearchAndPaging(int index, int size, string search)
         {
             int skipCount = index * size;
-            if (skipCount == 0)
-            {
-                var res = await _context.Orders
-                               .OrderByDescending(o => o.OrderDate)
-                               .Where(o => o.Product.Category.Name == search)
-                               .Take(size)
-                               .Select(o => new OrderView
-                               {
-                                   ProductName = o.Product.Name,
-                                   CategoryName = o.Product.Category.Name,
-                                   CustomerName = o.Customer.Name,
-                                   OrderDate = o.OrderDate,
-                                   Amount = o.Amount
-                               })
-                               .ToListAsync();
-                return res;
-            }
             var result = await _context.Orders
                                .OrderByDescending(o => o.OrderDate)
                                .Where(o => o.Product.Category.Name == search)
