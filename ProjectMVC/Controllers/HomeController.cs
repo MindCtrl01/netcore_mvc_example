@@ -40,10 +40,18 @@ namespace ProjectMVC.Controllers
                 var user = await _userManager.FindByNameAsync(username);
                 if (user != null && await _userManager.CheckPasswordAsync(user, password))
                 {
-                    await _signinManager.SignInAsync(user, isPersistent: false);
-                    return View("Success");
+                    try
+                    {
+                        await _signinManager.SignInAsync(user, isPersistent: false);
+                        HttpContext.Session.SetString("username", username);
+                        return View("Success");
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogError("Error when signing in : " + ex.Message);
+                        return View("Index");
+                    }
                 }
-                HttpContext.Session.SetString("username", username);
                 return View("Index");
             }
             else
@@ -54,12 +62,21 @@ namespace ProjectMVC.Controllers
         }
 
         [Route("logout")]
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> Logout()
         {
-            await _signinManager.SignOutAsync();
-            HttpContext.Session.Remove("username");
-            return RedirectToAction("Index");
+            try
+            {
+                await _signinManager.SignOutAsync();
+                HttpContext.Session.Remove("username");
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error when signing out : " + ex.Message);
+                return View("Success");
+            }
         }
     }
 }

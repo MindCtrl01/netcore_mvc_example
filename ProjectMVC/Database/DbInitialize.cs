@@ -74,8 +74,40 @@ namespace ProjectMVC.Database
                 Amount = 1,
                 OrderDate = DateTime.Now
             };
+            var order3 = new Order
+            {
+                CustomerId = userId,
+                ProductId = prod1.Id,
+                Amount = 2,
+                OrderDate = DateTime.Now
+            };
+            var order4 = new Order
+            {
+                CustomerId = userId,
+                ProductId = prod2.Id,
+                Amount = 1,
+                OrderDate = DateTime.Now
+            };
+            var order5 = new Order
+            {
+                CustomerId = userId,
+                ProductId = prod1.Id,
+                Amount = 2,
+                OrderDate = DateTime.Now
+            };
+            var order6 = new Order
+            {
+                CustomerId = userId,
+                ProductId = prod2.Id,
+                Amount = 1,
+                OrderDate = DateTime.Now
+            };
             _context.Orders.Add(order1);
             _context.Orders.Add(order2);
+            _context.Orders.Add(order3);
+            _context.Orders.Add(order4);
+            _context.Orders.Add(order5);
+            _context.Orders.Add(order6);
             _context.SaveChanges();
         }
     }

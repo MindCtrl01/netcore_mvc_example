@@ -14,6 +14,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ProjectMVC
 {
@@ -28,6 +30,19 @@ namespace ProjectMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest)
+            //   .AddRazorPagesOptions(options =>
+            //   {
+            //       options.Conventions.AuthorizeFolder("/Home/Index");
+            //       options.Conventions.AuthorizePage("/Order/List");
+            //       options.Conventions.AuthorizePage("/Order/Create");
+            //   });
+
+            //services.ConfigureApplicationCookie(options =>
+            //{
+            //    options.LoginPath = $"/Home/Login";
+            //    options.LogoutPath = $"/Home/Logout";
+            //});
             services.AddDbContext<ProjectDbContext>(options => {
                 string connectstring = Configuration.GetConnectionString("ProjectDbContext");
                 options.UseSqlServer(connectstring);
@@ -54,7 +69,8 @@ namespace ProjectMVC
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<Customer> userManager, IServiceProvider serviceProvider)
         {
-            // seed User first time
+            // seed data first time
+            // comment this line after run app once
             //DbInitialize.SeedUser(userManager, serviceProvider);
 
             if (env.IsDevelopment())
