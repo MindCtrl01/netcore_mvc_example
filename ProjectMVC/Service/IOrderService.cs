@@ -8,6 +8,7 @@ namespace ProjectMVC.Service
 {
     public interface IOrderService
     {
-        Task<ListOrderViewModel> GetListOrder(int index, int size);
+        Task<ListOrderViewModel> GetListOrder(int index, int size, string search);
+        Task<int> CreateOrder(OrderCreateViewModel order);
     }
 }

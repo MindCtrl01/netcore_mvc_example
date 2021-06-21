@@ -8,7 +8,9 @@ namespace ProjectMVC.Repository
 {
     public interface IOrderRepository
     {
-        Task<List<OrderView>> GetOrderWithPaging(int index = 0, int size = 6);
+        Task<int> CreateOrder(OrderCreateViewModel order);
+        Task<List<OrderView>> GetOrderWithPaging(int index, int size);
+        Task<List<OrderView>> GetOrderWithSearchAndPaging(int index, int size, string search = "");
         int GetTotalOrder();
     }
 }

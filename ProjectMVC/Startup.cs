@@ -36,6 +36,8 @@ namespace ProjectMVC
                 .AddEntityFrameworkStores<ProjectDbContext>()
                 .AddDefaultTokenProviders();
 
+            services.AddSession();
+
             services.Configure<IdentityOptions>(options => {
                 options.Password.RequireDigit = false;
                 options.Password.RequireLowercase = false;
@@ -45,6 +47,7 @@ namespace ProjectMVC
             });
 
             services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IOrderService, OrderService>();
         }
 
@@ -65,6 +68,8 @@ namespace ProjectMVC
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+
+            app.UseSession();
             app.UseStaticFiles();
 
             app.UseRouting();

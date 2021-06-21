@@ -14,16 +14,33 @@ namespace ProjectMVC.Service
         {
             _orderRepository = orderRepository;
         }
-        public async Task<ListOrderViewModel> GetListOrder(int index, int size)
+
+        public Task<int> CreateOrder(OrderCreateViewModel order)
         {
-            var orders = await _orderRepository.GetOrderWithPaging(index, size);
+            return _orderRepository.CreateOrder(order);
+        }
+
+        public async Task<ListOrderViewModel> GetListOrder(int index, int size, string search)
+        {
             int total_result = _orderRepository.GetTotalOrder();
-            var result = new ListOrderViewModel
+            if (string.IsNullOrEmpty(search))
             {
-                ListOrder = orders,
+                var orders = await _orderRepository.GetOrderWithPaging(index, size);
+                var result = new ListOrderViewModel
+                {
+                    ListOrder = orders,
+                    TotalRecord = total_result
+                };
+                return result;
+            }
+
+            var ord = await _orderRepository.GetOrderWithSearchAndPaging(index, size, search);
+            var res= new ListOrderViewModel
+            {
+                ListOrder = ord,
                 TotalRecord = total_result
             };
-            return result;
+            return res;
         }
     }
 }
